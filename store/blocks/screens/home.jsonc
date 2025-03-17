@@ -1,0 +1,8 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#categories__home",
+      "flex-layout.row#banner__home"
+    ]
+  }
+}

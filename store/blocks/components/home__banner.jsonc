@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#banner__home": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#text__one--banner-home",
+      "flex-layout.col#text__two--banner-home",
+      "flex-layout.col#text__three--banner-home"
+    ]
+  },
+  "flex-layout.col#text__one--banner-home": {
+    "children": ["image#banner__left"],
+    "props": {
+      "blockClass": "col__one--text",
+      "width": "35%"
+    }
+  },
+  "flex-layout.col#text__two--banner-home": {
+    "children": [
+      "rich-text#banner__title",
+      "rich-text#banner__subtitle",
+      "rich-text#banner__description"
+    ],
+    "props": {
+      "blockClass": "col__two--text",
+      "width": "30%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#text__three--banner-home": {
+    "children": ["image#banner__right"],
+    "props": {
+      "blockClass": ["col__three--text"],
+      "width": "35%"
+    }
+  },
+  "image#banner__left": {
+    "title": "Banner Left",
+    "props": {
+      "src": "assets/img/banner__left.png",
+      "alt": "Banner Left",
+      "blockClass": "image__banner"
+    }
+  },
+  "image#banner__right": {
+    "title": "Banner Right",
+    "props": {
+      "src": "assets/img/banner__right.png",
+      "alt": "Banner Right",
+      "blockClass": "image__banner"
+    }
+  },
+  "rich-text#banner__title": {
+    "title": "Banner Title",
+    "props": {
+      "text": "# ¡WATCH",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-title"
+    }
+  },
+  "rich-text#banner__subtitle": {
+    "title": "Banner Subtitle",
+    "props": {
+      "text": "ULTRA 2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-subtitle"
+    }
+  },
+  "rich-text#banner__description": {
+    "title": "Banner Description",
+    "props": {
+      "text": "An amazing product.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-description"
+    }
+  }
+}
