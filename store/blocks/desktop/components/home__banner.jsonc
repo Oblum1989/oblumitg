@@ -1,0 +1,86 @@
+{
+  "flex-layout.row#banner__home-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#text__one--banner-home-desktop",
+      "flex-layout.col#text__two--banner-home-desktop",
+      "flex-layout.col#text__three--banner-home-desktop"
+    ]
+  },
+  "flex-layout.col#text__one--banner-home-desktop": {
+    "children": ["image#banner__left-desktop"],
+    "props": {
+      "blockClass": "col__one--text",
+      "width": "35%"
+    }
+  },
+  "flex-layout.col#text__two--banner-home-desktop": {
+    "children": [
+      "rich-text#banner__title-desktop",
+      "rich-text#banner__subtitle-desktop",
+      "rich-text#banner__description-desktop"
+    ],
+    "props": {
+      "blockClass": "col__two--text",
+      "width": "30%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#text__three--banner-home-desktop": {
+    "children": ["image#banner__right-desktop"],
+    "props": {
+      "blockClass": ["col__three--text"],
+      "width": "35%"
+    }
+  },
+  "image#banner__left-desktop": {
+    "title": "Banner Left",
+    "props": {
+      "src": "assets/img/banner__left.png",
+      "alt": "Banner Left",
+      "blockClass": "image__banner"
+    }
+  },
+  "image#banner__right-desktop": {
+    "title": "Banner Right",
+    "props": {
+      "src": "assets/img/banner__right.png",
+      "alt": "Banner Right",
+      "blockClass": "image__banner"
+    }
+  },
+  "rich-text#banner__title-desktop": {
+    "title": "Banner Title",
+    "props": {
+      "text": "# ¡WATCH",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-title"
+    }
+  },
+  "rich-text#banner__subtitle-desktop": {
+    "title": "Banner Subtitle",
+    "props": {
+      "text": "ULTRA 2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-subtitle"
+    }
+  },
+  "rich-text#banner__description-desktop": {
+    "title": "Banner Description",
+    "props": {
+      "text": "An amazing product.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-description"
+    }
+  }
+}

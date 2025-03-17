@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#banner__home-mobile": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#text__two--banner-home-mobile",
+      "flex-layout.col#text__one--banner-home-mobile"
+    ]
+  },
+  "flex-layout.col#text__one--banner-home-mobile": {
+    "children": ["image#banner__left-mobile"],
+    "props": {
+      "blockClass": "col__one--text",
+      "width": "35%"
+    }
+  },
+  "flex-layout.col#text__two--banner-home-mobile": {
+    "children": [
+      "rich-text#banner__title-mobile",
+      "rich-text#banner__subtitle-mobile",
+      "rich-text#banner__description-mobile"
+    ],
+    "props": {
+      "blockClass": "col__two--text",
+      "width": "65%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#banner__left-mobile": {
+    "title": "Banner Left",
+    "props": {
+      "src": "assets/img/banner__left.png",
+      "alt": "Banner Left",
+      "blockClass": "image__banner"
+    }
+  },
+  "rich-text#banner__title-mobile": {
+    "title": "Banner Title",
+    "props": {
+      "text": "# ¡WATCH",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-title"
+    }
+  },
+  "rich-text#banner__subtitle-mobile": {
+    "title": "Banner Subtitle",
+    "props": {
+      "text": "ULTRA 2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-subtitle"
+    }
+  },
+  "rich-text#banner__description-mobile": {
+    "title": "Banner Description",
+    "props": {
+      "text": "An amazing product.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__banner-description"
+    }
+  }
+}

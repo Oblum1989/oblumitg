@@ -1,0 +1,347 @@
+{
+  "flex-layout.row#categories__home-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category__one--categories-home-desktop",
+      "flex-layout.col#category__two--categories-home-desktop",
+      "flex-layout.col#category__three--categories-home-desktop",
+      "flex-layout.col#category__four--categories-home-desktop",
+      "flex-layout.col#category__five--categories-home-desktop",
+      "flex-layout.col#category__six--categories-home-desktop",
+      "flex-layout.col#category__seven--categories-home-desktop",
+      "flex-layout.col#category__eight--categories-home-desktop",
+      "flex-layout.col#category__nine--categories-home-desktop",
+      "flex-layout.col#category__ten--categories-home-desktop",
+      "flex-layout.col#category__eleven--categories-home-desktop",
+      "flex-layout.col#category__twelve--categories-home-desktop"
+    ]
+  },
+  "flex-layout.col#category__one--categories-home-desktop": {
+    "children": [
+      "image#category__one--desktop",
+      "rich-text#category__one--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__one--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__two--categories-home-desktop": {
+    "children": [
+      "image#category__two--desktop",
+      "rich-text#category__two--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__two--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__three--categories-home-desktop": {
+    "children": [
+      "image#category__three--desktop",
+      "rich-text#category__three--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__three--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__four--categories-home-desktop": {
+    "children": [
+      "image#category__four--desktop",
+      "rich-text#category__four--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__four--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__five--categories-home-desktop": {
+    "children": [
+      "image#category__five--desktop",
+      "rich-text#category__five--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__five--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__six--categories-home-desktop": {
+    "children": [
+      "image#category__six--desktop",
+      "rich-text#category__six--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__six--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__seven--categories-home-desktop": {
+    "children": [
+      "image#category__seven--desktop",
+      "rich-text#category__seven--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__seven--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__eight--categories-home-desktop": {
+    "children": [
+      "image#category__eight--desktop",
+      "rich-text#category__eight--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__eight--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__nine--categories-home-desktop": {
+    "children": [
+      "image#category__nine--desktop",
+      "rich-text#category__nine--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__nine--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__ten--categories-home-desktop": {
+    "children": [
+      "image#category__ten--desktop",
+      "rich-text#category__ten--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__ten--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__eleven--categories-home-desktop": {
+    "children": [
+      "image#category__eleven--desktop",
+      "rich-text#category__eleven--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__eleven--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#category__twelve--categories-home-desktop": {
+    "children": [
+      "image#category__twelve--desktop",
+      "rich-text#category__twelve--title--desktop"
+    ],
+    "props": {
+      "blockClass": "col__twelve--category",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#category__one--desktop": {
+    "title": "Food",
+    "props": {
+      "src": "assets/img/fastfood.png",
+      "alt": "Category One",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__two--desktop": {
+    "title": "Fitness",
+    "props": {
+      "src": "assets/img/fitness.png",
+      "alt": "Category Two",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__three--desktop": {
+    "title": "En el Ártico",
+    "props": {
+      "src": "assets/img/ice.png",
+      "alt": "Category Three",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__four--desktop": {
+    "title": "Poolday",
+    "props": {
+      "src": "assets/img/natural.png",
+      "alt": "Category Four",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__five--desktop": {
+    "title": "Hoteles",
+    "props": {
+      "src": "assets/img/hotel.png",
+      "alt": "Category Five",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__six--desktop": {
+    "title": "Casas",
+    "props": {
+      "src": "assets/img/home.png",
+      "alt": "Category Six",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__seven--desktop": {
+    "title": "Naturales",
+    "props": {
+      "src": "assets/img/natural.png",
+      "alt": "Category Seven",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__eight--desktop": {
+    "title": "Closet",
+    "props": {
+      "src": "assets/img/closet.png",
+      "alt": "Category Eight",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__nine--desktop": {
+    "title": "Playas",
+    "props": {
+      "src": "assets/img/beach.png",
+      "alt": "Category Nine",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__ten--desktop": {
+    "title": "Alpinismo",
+    "props": {
+      "src": "assets/img/alpin.png",
+      "alt": "Category Ten",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__eleven--desktop": {
+    "title": "Delivery",
+    "props": {
+      "src": "assets/img/natural.png",
+      "alt": "Category Eleven",
+      "blockClass": "image__category"
+    }
+  },
+  "image#category__twelve--desktop": {
+    "title": "Cervezas",
+    "props": {
+      "src": "assets/img/beer.png",
+      "alt": "Category Twelve",
+      "blockClass": "image__category"
+    }
+  },
+  "rich-text#category__one--title--desktop": {
+    "title": "Category One Title",
+    "props": {
+      "text": "Food",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__two--title--desktop": {
+    "title": "Category Two Title",
+    "props": {
+      "text": "Fitness",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__three--title--desktop": {
+    "title": "Category Three Title",
+    "props": {
+      "text": "En el Ártico",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__four--title--desktop": {
+    "title": "Category Four Title",
+    "props": {
+      "text": "Poolday",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__five--title--desktop": {
+    "title": "Category Five Title",
+    "props": {
+      "text": "Hoteles",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__six--title--desktop": {
+    "title": "Category Six Title",
+    "props": {
+      "text": "Casas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__seven--title--desktop": {
+    "title": "Category Seven Title",
+    "props": {
+      "text": "Naturales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__eight--title--desktop": {
+    "title": "Category Eight Title",
+    "props": {
+      "text": "Closet",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__nine--title--desktop": {
+    "title": "Category Nine Title",
+    "props": {
+      "text": "Playas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__ten--title--desktop": {
+    "title": "Category Ten Title",
+    "props": {
+      "text": "Alpinismo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__eleven--title--desktop": {
+    "title": "Category Eleven Title",
+    "props": {
+      "text": "Delivery",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  },
+  "rich-text#category__twelve--title--desktop": {
+    "title": "Category Twelve Title",
+    "props": {
+      "text": "Cervezas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "rich-text__categories-title"
+    }
+  }
+}
