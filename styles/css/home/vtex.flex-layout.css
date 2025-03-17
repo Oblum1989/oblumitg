@@ -4,5 +4,15 @@
 }
 
 .flexRow {
+  background: #FFFFFF;;
+}
+
+.flexCol--col__two--text {
   background: #F0F0F2;
+  margin-top: 4rem;
+}
+
+.stretchChildrenWidth {
+  background: #F0F0F2;
+  margin-top: 4rem;
 }

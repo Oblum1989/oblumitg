@@ -11,8 +11,8 @@
         "phone": 4
       },
       "infinite": true,
-      "showNavigationArrows": "mobileOnly",
-      "showPaginationDots": "always"
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
     },
     "children": [
       "flex-layout.col#category__one--categories-home-mobile",

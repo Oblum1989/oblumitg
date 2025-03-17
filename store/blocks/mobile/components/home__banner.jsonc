@@ -15,8 +15,7 @@
   "flex-layout.col#text__one--banner-home-mobile": {
     "children": ["image#banner__left-mobile"],
     "props": {
-      "blockClass": "col__one--text",
-      "width": "35%"
+      "blockClass": "col__one--text"
     }
   },
   "flex-layout.col#text__two--banner-home-mobile": {
@@ -27,7 +26,6 @@
     ],
     "props": {
       "blockClass": "col__two--text",
-      "width": "65%",
       "horizontalAlign": "center",
       "verticalAlign": "middle"
     }
